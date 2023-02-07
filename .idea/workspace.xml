@@ -9,12 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="281eccf1-ae25-4fe0-9592-96c86624d42e" name="Changes" comment="applying built-in validation rules (finished)">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_02_2023_13_13__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_02_2023_13_13__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_02_2023_10_52__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_02_2023_10_52__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_02_2023_13_13__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_02_2023_13_13__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="281eccf1-ae25-4fe0-9592-96c86624d42e" name="Changes" comment="Work with tags and data binding">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/validation/CourseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/validation/CourseCodeConstraintValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/stolyarov/springcourse/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer-confirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer-confirmation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer-form.jsp" afterDir="false" />
@@ -28,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
