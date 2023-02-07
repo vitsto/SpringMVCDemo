@@ -29,7 +29,10 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-
+    <bean id="messageSource"
+          class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basenames" value="messages"/>
+    </bean>
     <!--    <bean id="templateEngine" class="org.thymeleaf.spring5.SpringTemplateEngine">-->
     <!--        <property name="templateResolver" ref="templateResolver"/>-->
     <!--        <property name="enableSpringELCompiler" value="true"/>-->
